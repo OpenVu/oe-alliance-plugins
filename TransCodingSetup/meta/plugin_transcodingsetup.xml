@@ -3,14 +3,16 @@
                     <tag type="System" />
 	  </prerequisites>
           <info>
-                    <author>hschang</author>
+                    <author>PLi Team</author>
                     <name>TranscodingSetup</name>
-                    <packagename>enigma2-plugin-systemplugins-transcodingsetup</packagename>
-                    <shortdescription>Setup transcoding of your VU+</shortdescription>
-                    <description>Setup transcoding of your VU+</description>
+                    <packagename>enigma2-plugin-extensions-transcodingsetup</packagename>
+                    <shortdescription>Transcoding setup (default config)</shortdescription>
+                    <description>Use this plugin to configure default values for transcoding for
+									app's that don't support configuring transcoding and
+									for the OpenWebIf</description>
           </info>
 
 	  <files type="package"> <!-- without version, without .ipk -->
-		<file type="package" name="enigma2-plugin-systemplugins-transcodingsetup" />
-	</files>
+		<file type="package" name="enigma2-plugin-extensions-transcodingsetup" />
+	  </files>
 </default>
